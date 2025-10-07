@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codejump04</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/codejump_04.css">
+</head>
+
+<body>
+    <div class="main_container">
+        <img class="main_pc" src="codejump_4img/mainvisual-pc.jpg" alt="pc版メインの画像">
+        <img class="main_sp" src="codejump_4img/mainvisual-sp.jpg" alt="sp版メインの画像">
+        <p class="main_text1">創 作</p>
+        <p class="main_text2">お知らせ</p>
+        <p class="main_text3">商品のご紹介</p>
+        <p class="main_text4">店舗のご案内</p>
+        <p class="main_text5">
+            <a class="inner_box" href="#">オンラインストアを見る</a>  <!-- href="sharp" → "#"に変更 ダミーにするときは"#"を使用-->  <!-- 修正箇所 -->
+            <!-- <span class="inner_box">オンラインストアを見る</span> -->
+        </p>
+    </div>
+
+    <div class="wrapper">  <!-- cssでコンテンツの幅を修正するためにwrapperクラスを追加 -->  <!-- 修正箇所 -->
+    <div class="center">
+        <div class="news">
+            <p class="news_ja">お知らせ</p>
+            <p class="news_en">News</p>
+        </div>
+        <div class="news_note">
+            <div class="note_item">
+                <div class="note_date">2021.01.01</div>
+                <div class="note_text">タイトルタイトルタイトルタイトル</div>
+            </div>
+            <div class="note_item">
+                <div class="note_date">2021.01.01</div>
+                <div class="note_text">タイトルタイトルタイトルタイトル</div>
+            </div>
+            <div class="note_item_3">
+                <div class="note_date">2021.01.01</div>
+                <div class="note_text">タイトルタイトルタイトルタイトル</div>
+            </div>
+            <div class="note_item_4">
+                <div class="note_date">2021.01.01</div>
+                <div class="note_text">タイトルタイトルタイトルタイトル</div>
+            </div>
+            <div class="note_item_5">
+                <div class="note_date">2021.01.01</div>
+                <div class="note_text">タイトルタイトルタイトルタイトル</div>
+            </div>
+        </div>
+
+        <div class="values">
+            <p class="values_ja">新しい価値の創造</p>
+            <p class="values_en">Create New Values</p>
+            <img class="values_img" src="codejump_4img/products1.jpg" alt="新しい価値の画像">
+            <div class="yellow_box">
+                <p class="values_text">テキストテキスト<br>テキストテキスト</p>
+            </div>
+        </div>
+
+        <div class="science">
+            <p class="science_ja">科学と技術の調和</p>
+            <p class="science_en">Science & Technology</p>
+            <img class="science_img" src="codejump_4img/products2.jpg" alt="サイエンスの画像">
+            <div class="red_box">
+                <p class="science_text">テキストテキスト<br>テキストテキスト</p>
+            </div>
+
+        </div>
+        <!-- iframeタグの中のwidth="1400 → 100%に変更" -->  <!-- 修正箇所 -->
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6483.365618263578!2d139.7299112415474!3d35.66018575746406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b9c2ef8e6c3%3A0xff8de5eeddcd1e17!2z44CSMTA2LTAwMzIg5p2x5Lqs6YO95riv5Yy65YWt5pys5pyo77yV5LiB55uu!5e0!3m2!1sja!2sjp!4v1759366365611!5m2!1sja!2sjp"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="end">  <!-- divタグではなく、footerタグで書く -->  <!-- 修正箇所 -->
+            <p class="end_text1">創 作</p>
+            <p class="address">〒１０６-００３２　東京都港区六本木５丁目×××××</p>
+            <p class="tel">電話 ０３-ＸＸＸＸ-ＸＸＸＸ</p>
+            <p class="end_text2">お知らせ</p>
+            <p class="end_text3">商品のご紹介</p>
+            <p class="end_text4">店舗のご案内</p>
+            <p class="end_text5">オンラインストアを見る一お問い合わせ</p>
+            <p class="end_text6">© SOUSAKU</p>
+        </div>
+    </div>
+    </div>  <!-- wrapperクラスの閉じタグ -->  <!-- 修正箇所 -->
+</body>
+
+</html>

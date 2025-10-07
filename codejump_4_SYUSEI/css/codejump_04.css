@@ -1,0 +1,610 @@
+@charset "utf-8";     /* 追加　文字化け防止のため必須 */ /* 修正箇所*/
+
+
+.main_container {
+    height: 600px;
+}
+
+.main_pc {
+    display: block;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.main_sp {
+    display: none;
+}
+
+.main_text1 {
+    position: absolute;
+    top: 60px;
+    right: 80.5px;
+    writing-mode: vertical-rl;
+    font-family: serif;
+    color: white;
+    font-size: 35px;
+}
+
+.main_text2 {
+    position: absolute;
+    top: 60px;
+    right: 180px;
+    writing-mode: vertical-rl;
+    color: white;
+    font-size: 14px;
+}
+
+.main_text3 {
+    position: absolute;
+    top: 60px;
+    right: 221px;
+    writing-mode: vertical-rl;
+    color: white;
+    font-size: 14px;
+}
+
+.main_text4 {
+    position: absolute;
+    top: 60px;
+    right: 262px;
+    writing-mode: vertical-rl;
+    color: white;
+    font-size: 14px;
+}
+
+.main_text5 {
+    position: absolute;
+    top: 310px;
+    left: 30px;
+    writing-mode: vertical-rl;
+    background-color: rgb(53, 53, 53);
+    width: 68px;
+    height: 257px;
+    display: flex;
+    justify-content: center;
+    align-items: center;              /* color: white; 削除*/  /* 修正箇所*/
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+}
+
+/* main_text5クラスのaタグにcolorを指定する */  /* 修正箇所*/
+.main_text5 a {
+    color: #fff;
+}
+
+/* 小さめの白枠ボックス */
+.inner_box {
+    border: 1px solid white;
+    padding: 40px 12px;
+    writing-mode: vertical-rl;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* htmlに追加したwrapperクラスの幅を指定 */  /* 修正箇所*/
+.wrapper {
+    width: 100%;
+}
+
+.center {
+    height: 2150px;
+    background-color: rgb(226, 223, 211);
+    position: relative;
+}
+
+.news {
+    display: flex;
+}
+
+.news_ja {
+    position: absolute;
+    top: 180px;
+    right: 200px;
+    writing-mode: vertical-rl;
+    font-size: 36px;
+}
+
+.news_en {
+    font-size: 12px;
+    writing-mode: vertical-rl;
+    font-family: serif;
+    position: absolute;
+    top: 180px;
+    right: 185px;
+}
+
+.news_note {
+    writing-mode: vertical-rl;
+    position: absolute;
+    top: 275.5px;
+    right: 399.18px;
+}
+
+.note_item {
+    border-right: 1px solid #444;
+    padding: 10px 25px;
+}
+
+.note_item_3 {
+    border-right: 1px solid #444;
+    padding: 10px 25px;
+}
+
+.note_item_4 {
+    border-right: 1px solid #444;
+    padding: 10px 25px;
+}
+
+.note_item_5 {
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+    padding: 10px 25px;
+}
+
+.note_date {
+    writing-mode: vertical-rl;
+    font-family: serif;
+    font-size: 12px;
+}
+
+.note_text {
+    font-size: 16px;
+}
+
+.values_ja {
+    position: absolute;
+    top: 735.5px;
+    right: 208px;
+    writing-mode: vertical-rl;
+    font-size: 36px;
+}
+
+.values_en {
+    font-size: 12px;
+    writing-mode: vertical-rl;
+    font-family: serif;
+    position: absolute;
+    top: 1048.5px;
+    right: 225px;
+}
+
+.values_img {
+    width: 639px;
+    height: 426px;
+    position: absolute;
+    top: 832px;
+    right: 264px;
+}
+
+.values_text {
+    width: 358px;
+    height: 137px;
+    background: rgba(207, 207, 0, 0.5);
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1141px;
+    right: 565px;
+}
+
+.science_ja {
+    position: absolute;
+    top: 1442px;
+    left: 208px;
+    writing-mode: vertical-rl;
+    font-size: 36px;
+}
+
+.science_en {
+    font-size: 12px;
+    writing-mode: vertical-rl;
+    font-family: serif;
+    position: absolute;
+    top: 1755px;
+    left: 227px;
+}
+
+.science_img {
+    width: 639px;
+    height: 426px;
+    position: absolute;
+    top: 1538px;
+    left: 264px;
+}
+
+.science_text {
+    width: 358px;
+    height: 137px;
+    background: rgba(134, 0, 0, 0.5);
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1847.5px;
+    left: 565px;
+}
+
+.map {
+    margin-top: 2150px;
+}
+
+.end {
+
+    height: 501px;
+    background-color: black;
+    position: relative;
+    margin-top: 0px;     /* width: 1400pxを削除 */  /* 修正箇所*/
+}
+
+.end_text1 {
+    position: absolute;
+    top: 80px;
+    right: 80.5px;
+    writing-mode: vertical-rl;
+    font-family: serif;
+    color: white;
+    font-size: 35px;
+}
+
+.end_text2 {
+    position: absolute;
+    top: 82px;
+    right: 275px;
+    writing-mode: vertical-rl;
+    color: white;
+    font-size: 14px;
+}
+
+.end_text3 {
+    position: absolute;
+    top: 82px;
+    right: 316px;
+    writing-mode: vertical-rl;
+    color: white;
+    font-size: 14px;
+}
+
+.end_text4 {
+    position: absolute;
+    top: 82px;
+    right: 357px;
+    writing-mode: vertical-rl;
+    color: white;
+    font-size: 14px;
+}
+
+.end_text5 {
+    position: absolute;
+    top: 82px;
+    left: 30px;
+    writing-mode: vertical-rl;
+    color: white;
+    font-size: 14px;
+}
+
+.end_text6 {
+    color: white;
+    font-size: 10px;
+    padding-top: 460px;
+    margin-left: 670px;
+}
+
+.address {
+    position: absolute;
+    top: 82px;
+    right: 180px;
+    writing-mode: vertical-rl;
+    color: white;
+    font-size: 14px;
+}
+
+.tel {
+    position: absolute;
+    top: 82px;
+    right: 201px;
+    writing-mode: vertical-rl;
+    color: white;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 375.98px) {  /* 一般的には、max-width: 768pxを指定 */
+    body {
+        width: 375.98px;
+        margin: 0 auto;
+    }
+
+    .main_container {
+        width: 375px;
+        height: 600px;
+        position: relative;
+    }
+
+    .main_pc {
+        display: none;
+    }
+
+    .main_sp {
+        display: block;
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+
+    .main_text1 {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        writing-mode: vertical-rl;
+        font-family: serif;
+        color: white;
+        font-size: 35px;
+    }
+
+    .main_text2 {
+        position: absolute;
+        top: 20px;
+        right: 115px;
+        writing-mode: vertical-rl;
+        color: white;
+        font-size: 14px;
+    }
+
+    .main_text3 {
+        position: absolute;
+        top: 20px;
+        right: 156px;
+        writing-mode: vertical-rl;
+        color: white;
+        font-size: 14px;
+    }
+
+    .main_text4 {
+        position: absolute;
+        top: 20px;
+        right: 197px;
+        writing-mode: vertical-rl;
+        color: white;
+        font-size: 14px;
+    }
+
+    .main_text5 {
+        position: absolute;
+        top: 327px;
+        left: 20px;
+        background-color: rgb(53, 53, 53);
+        width: 68px;
+        height: 257px;
+        writing-mode: vertical-rl;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .center {
+        width: 375px;
+        height: 1200px;
+        background-color: rgb(226, 223, 211);
+        position: relative;
+    }
+
+    .news {
+        display: flex;
+    }
+
+    .news_ja {
+        position: absolute;
+        top: 83px;
+        right: 45.19px;
+        writing-mode: vertical-rl;
+        font-size: 28px;
+    }
+
+    .news_en {
+        font-size: 10px;
+        writing-mode: vertical-rl;
+        font-family: serif;
+        position: absolute;
+        top: 83px;
+        right: 20px;
+    }
+
+    .news_note {
+        writing-mode: vertical-rl;
+        position: absolute;
+        top: 115.5px;
+        right: 115.19px;
+    }
+
+    .note_item {
+        border-right: 1px solid #444;
+        padding: 10px 10px;
+    }
+
+    .note_item_3 {
+        border-left: 1px solid #444;
+        border-right: 1px solid #444;
+        padding: 10px 10px;
+    }
+
+    .note_item_4 {
+        display: none;
+    }
+
+    .note_item_5 {
+        display: none;
+    }
+
+    .note_date {
+        writing-mode: vertical-rl;
+        font-family: serif;
+        font-size: 10px;
+    }
+
+    .note_text {
+        font-size: 16px;
+    }
+
+    .values_ja {
+        position: absolute;
+        top: 474.5px;
+        right: 20px;
+        writing-mode: vertical-rl;
+        font-size: 24px;
+    }
+
+    .values_en {
+        display: none;
+    }
+
+    .values_img {
+        width: 301px;
+        height: 194px;
+        position: absolute;
+        top: 542px;
+        left: 20px;
+    }
+
+    .values_text {
+        width: 192px;
+        height: 94px;
+        background: rgba(207, 207, 0, 0.5);
+        font-size: 14px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 662px;
+        right: 183px;
+    }
+
+    .science_ja {
+        position: absolute;
+        top: 839px;
+        left: 20px;
+        writing-mode: vertical-rl;
+        font-size: 24px;
+    }
+
+    .science_en {
+        display: none;
+    }
+
+    .science_img {
+        width: 301px;
+        height: 194px;
+        position: absolute;
+        top: 906.5px;
+        left: 54px;
+    }
+
+    .science_text {
+        width: 192px;
+        height: 94px;
+        background: rgba(134, 0, 0, 0.5);
+        font-size: 14px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 1026.5px;
+        left: 183px;
+    }
+
+    .map {
+        width: 375px;
+        height: 450px;
+        margin-top: 1200px;
+    }
+
+    .end {
+        width: 375px;
+        height: 461px;
+        background-color: black;
+        position: relative;
+        margin-top: 0px;
+    }
+
+    .end_text1 {
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        writing-mode: vertical-rl;
+        font-family: serif;
+        color: white;
+        font-size: 35px;
+    }
+
+    .end_text2 {
+        position: absolute;
+        top: 42px;
+        right: 145px;
+        writing-mode: vertical-rl;
+        color: white;
+        font-size: 14px;
+    }
+
+    .end_text3 {
+        position: absolute;
+        top: 42px;
+        right: 169px;
+        writing-mode: vertical-rl;
+        color: white;
+        font-size: 14px;
+    }
+
+    .end_text4 {
+        position: absolute;
+        top: 42px;
+        right: 193px;
+        writing-mode: vertical-rl;
+        color: white;
+        font-size: 14px;
+    }
+
+    .end_text5 {
+        position: absolute;
+        top: 42px;
+        left: 20px;
+        writing-mode: vertical-rl;
+        color: white;
+        font-size: 14px;
+    }
+
+    .end_text6 {
+        color: white;
+        font-size: 10px;
+        padding-top: 420px;
+        margin-left: 157px;
+    }
+
+    .address {
+        position: absolute;
+        top: 42px;
+        right: 85px;
+        writing-mode: vertical-rl;
+        color: white;
+        font-size: 14px;
+    }
+
+    .tel {
+        position: absolute;
+        top: 42px;
+        right: 106px;
+        writing-mode: vertical-rl;
+        color: white;
+        font-size: 14px;
+    }
+}
